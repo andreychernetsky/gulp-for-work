@@ -1,0 +1,19 @@
+@import "partials/params";
+@import "partials/mixins";
+
+html, body {
+  @include clear;
+  width: 100%;
+  font-family: 'Roboto',sans-serif;  //подключить шрифт
+
+}
+h1,h2,h3,h4,h5,h6,p {
+  @include clear;
+}
+a {
+  text-decoration: none;
+}
+.view-port {
+  margin:0 auto;
+  max-width:$view-port;
+}
