@@ -1,0 +1,77 @@
+@import "../partials/params";
+@import "../partials/mixins";
+@import "../common/grid";
+
+.burger-button {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 38px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  cursor: pointer;
+  z-index: 100;
+  transition: 300ms ease;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    &:after {
+      box-shadow: 0 4px 0 2px $primary_color_hover,
+      0 13px 0 2px $primary_color_hover,
+      0 22px 0 2px $primary_color_hover;
+    }
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    left: 8px;
+    box-shadow: 0 4px 0 2px $primary_color,
+    0 13px 0 2px $primary_color,
+    0 22px 0 2px $primary_color;
+  }
+  &:before {
+    content: '';
+    width: 60%;
+    height: 48%;
+    background: $light_gray;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 5px;
+    display: none;
+  }
+  @include breakpoint($small_screen_only) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 87px;
+    &:hover {
+      &:after {
+        box-shadow: 0 4px 0 2px $primary_color_hover,
+        0 12px 0 2px $primary_color_hover,
+        0 20px 0 2px $primary_color_hover;
+      }
+    }
+    &:after {
+      top: 37%;
+      right: 40%;
+      left: 40%;
+      box-shadow: 0 4px 0 2px $primary_color,
+      0 12px 0 2px $primary_color,
+      0 20px 0 2px $primary_color;
+
+    }
+    &:before {
+      display: block;
+    }
+  }
+}
