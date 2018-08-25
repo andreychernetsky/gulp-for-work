@@ -1,4 +1,4 @@
-@import "../partials/params";
+@import "../partials/varibles";
 @import "../partials/mixins";
 @import "../common/grid";
 
@@ -72,14 +72,6 @@
     }
     &:before {
       display: block;
-    }
-  }
-  &.close-button {
-    &:after {
-      background: #000;
-    }
-    &:before {
-      background: #000;
     }
   }
 }
