@@ -74,4 +74,12 @@
       display: block;
     }
   }
+  &.close-button {
+    &:after {
+      background: #000;
+    }
+    &:before {
+      background: #000;
+    }
+  }
 }

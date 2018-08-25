@@ -1,0 +1,28 @@
+@import "../partials/params";
+@import "../partials/mixins";
+@import "../common/grid";
+
+.top-section {
+  margin: 2% 0;
+  h1, .h1 {
+    margin-top: 0;
+  }
+  .block-half {
+    width: 50%;
+    padding-right: 15px;
+    & + .block-half {
+      padding: 0 0 0 15px;
+    }
+  }
+  .zoom-image {
+    margin: 12px 0;
+    @include zoom-image-container(69.56%);
+  }
+  .title {
+    text-transform: uppercase;
+    margin: 25px 0;
+  }
+  .description {
+    margin: 20px 0;
+  }
+}
