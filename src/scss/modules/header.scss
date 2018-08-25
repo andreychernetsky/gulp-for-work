@@ -1,0 +1,80 @@
+@import "../partials/params";
+@import "../partials/mixins";
+@import "../common/grid";
+
+.site-header {
+  padding-bottom: 15px;
+  border-bottom: 5px solid $primary_color;
+  @include breakpoint($small_screen_only) {
+    .social, .site-logo {
+      float: none !important;
+    }
+    .social {
+      text-align: right;
+    }
+  }
+}
+.site-logo {
+  font-size: 15px;
+  text-decoration: none;
+  transition: 300ms ease;
+  border-bottom: none;
+  b {
+    color: $gray;
+    transition: 300ms ease;
+  }
+  &:hover {
+    color: $primary_color;
+    b {
+      color: $primary_color;
+    }
+  }
+  @include breakpoint($small_screen_only) {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}
+
+.social {
+  margin-top: -4px;
+  font-size: 22px;
+  a {
+    border-bottom: none;
+  }
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    & + li {
+      margin-left: 10px;
+    }
+    a {
+      display: block;
+    }
+  }
+  .fa-vk {
+    &:hover {
+      color: #5078b4;
+    }
+  }
+  .fa-facebook-f {
+    &:hover {
+      color: #2d57b4;
+    }
+  }
+  .fa-twitter {
+    &:hover {
+      color: #25a6c7;
+    }
+  }
+  .fa-instagram {
+    &:hover {
+      color: #c74f7e;
+    }
+  }
+  .fa-android {
+    &:hover {
+      color: #23c73b;
+    }
+  }
+}

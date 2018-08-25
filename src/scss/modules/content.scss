@@ -1,0 +1,12 @@
+@import "../partials/params";
+@import "../partials/mixins";
+@import "../common/grid";
+
+
+
+.site-section {
+  padding: 40px 20px;
+  @include breakpoint($small_screen_only) {
+    padding-top: 31px;
+  }
+}
