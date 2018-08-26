@@ -38,6 +38,7 @@ a {
   color: $font_color;
   text-decoration: none;
   border-bottom: 1px dotted $font_color;
+  transition: all .1s ease;
   &:hover {
     border-bottom-color: transparent;
     color: $primary_color;

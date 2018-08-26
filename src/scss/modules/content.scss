@@ -4,11 +4,13 @@
 
 .site-section {
     padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     @include breakpoint($small_screen_only) {
         padding-top: 31px;
     }
     .content {
-        border-top: 1px solid $gray;
         padding: 10px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
