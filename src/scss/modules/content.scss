@@ -2,11 +2,52 @@
 @import "../partials/mixins";
 @import "../common/grid";
 
-
-
 .site-section {
-  padding: 40px 20px;
-  @include breakpoint($small_screen_only) {
-    padding-top: 31px;
-  }
+    padding: 40px 20px;
+    @include breakpoint($small_screen_only) {
+        padding-top: 31px;
+    }
+    .content {
+        border-top: 1px solid $gray;
+        padding: 20px;
+        .article-questions {
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            margin: 20px;
+            .question-text {
+                display: flex;
+                flex-direction: column;
+                .question-title {
+                    color: $gray;
+                }
+            }
+            .question-link {
+                margin-right: 20px;
+                border-bottom: none;
+                .question-foto {
+                    border-radius: 10px;
+                    overflow: hidden;
+                    display: block;
+                    img {
+                        transition: all .3s ease;
+                        transform: scale(1.1);
+                    }
+                    &:hover {
+                        position: relative;
+                        img {
+                            transform: scale(1.3);
+                        }
+                    }
+                }
+            }
+            &.right {
+                flex-direction: row-reverse;
+                .question-link {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
 }
