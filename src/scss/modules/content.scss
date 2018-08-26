@@ -9,21 +9,26 @@
     }
     .content {
         border-top: 1px solid $gray;
-        padding: 20px;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
         .article-questions {
             display: flex;
             flex-direction: row;
-            padding: 10px;
-            margin: 20px;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px 0;
+            flex-wrap: wrap;
             .question-text {
                 display: flex;
                 flex-direction: column;
                 .question-title {
                     color: $gray;
+                    margin: 0;
                 }
             }
             .question-link {
-                margin-right: 20px;
                 border-bottom: none;
                 .question-foto {
                     border-radius: 10px;
@@ -43,9 +48,6 @@
             }
             &.right {
                 flex-direction: row-reverse;
-                .question-link {
-                    margin-left: 20px;
-                }
             }
         }
     }
