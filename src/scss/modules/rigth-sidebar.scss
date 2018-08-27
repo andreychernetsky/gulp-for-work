@@ -6,6 +6,9 @@
   overflow: auto;
   background: $white_gray;
   height: 900px;
+  @include breakpoint($medium_screen_only) {
+    display: none;
+  }
   ul {
     list-style-type: none;
     margin: 0;
