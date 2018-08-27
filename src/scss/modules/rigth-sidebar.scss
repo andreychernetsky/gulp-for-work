@@ -3,6 +3,7 @@
 @import "../common/grid";
 
 .right-sidebar {
+  overflow: auto;
   background: $white_gray;
   height: 900px;
   ul {
