@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b74f185-c70f-4f07-9122-2b2b729a01d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/second-page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/second-page/first-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bundle.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/bundle.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_mixins.scss" afterDir="false" />
-    </list>
+    <list default="true" id="6b74f185-c70f-4f07-9122-2b2b729a01d2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,8 +44,8 @@
       <file leaf-file-name="first-section.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/second-page/first-section.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+            <state relative-caret-position="308">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -282,12 +276,12 @@
       <updated>1535290131602</updated>
       <workItem from="1535290133397" duration="7279000" />
       <workItem from="1535378829014" duration="8029000" />
-      <workItem from="1535468385537" duration="5126000" />
+      <workItem from="1535468385537" duration="5484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20434000" />
+    <option name="totallyTimeSpent" value="20792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -579,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/second-page/first-section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        <state relative-caret-position="308">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
